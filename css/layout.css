@@ -3,7 +3,6 @@ html {
     
   }
 
-
 .logo{
 
 	height:68px;
@@ -267,11 +266,6 @@ h1{
 }
 
 
-
-
-
-
-    
     h6{
     
         color:#bf7575;
@@ -297,8 +291,8 @@ h1{
 }
 
 h4{
-    font-size: 50px;
-    font-family: 'Seaweed Script', cursive;
+    font-size: 3em;
+    font-family: 'Kaushan Script', cursive;
     color:#a02459;
     text-align: center;
     letter-spacing: 2px;
@@ -354,9 +348,7 @@ h4{
     
     }
     
-#texto2,
-#texto4,
-#texto6{
+#texto2{
     padding-left:6%;
     padding-right: 5%;
     text-align: justify;
@@ -368,7 +360,7 @@ h4{
 
 #business2{
       
-    padding-top:3%;
+    padding-top:1%;
 
 }
 
@@ -376,6 +368,15 @@ h4{
     width: 60%;
     
 }
+
+
+@media screen and (max-width: 600px) {
+    #business2, #business4, #business6 {
+      display:none;
+    }
+
+  }
+
 
 #texto3{
 
@@ -399,23 +400,27 @@ text-align: justify;
     }
 
 
-#texto4 li,
-#texto6 li{
+#texto4 li{
     list-style-type: circle !important;
     margin-left:5%;
  
 
 }
 
-#texto4 p,
-#texto6 p{
+#texto4 p{
     margin-left:5%;
 
 }
 
+#texto4{
+    padding-left:6%;
+    padding-right: 5%;
+    text-align: justify;
+    
+}    
 
 #business4{
-    padding-top:15%;
+    padding-top:10%;
 }
 
 
@@ -460,10 +465,26 @@ text-align: justify;
     padding-bottom: 2%;
    
 }
+#texto6{
+    padding-left:6%;
+    padding-right: 5%;
+    text-align: justify;
+    
+}    
 
+#texto6 p{
+    margin-left:5%;
+
+}
+#texto6 li{
+    list-style-type: circle !important;
+    margin-left:5%;
+
+}
 
 #empreendedoras{
     margin-top:2%;
+    
 }
 
 
@@ -472,7 +493,9 @@ text-align: justify;
   
 }
 
-
+#business6{
+    padding-top:3%;
+}
 
 
 
@@ -510,19 +533,6 @@ text-align: justify;
 }
 
 
-#texto8 h6{
-    font-size:25px;
-    font-family: sans-serif;
-    text-transform: none;
-    font-weight: bold;
-    margin:2%;
-    color:#a02459;
-}
-
-
-
-
-
 #texto1 p,
 #texto2 ul,
 #texto3 ul,
@@ -538,22 +548,78 @@ text-align: justify;
 
 
 
+#porquee{
+    background-color:rgba(124,124,124,0.07);
+    border:1px solid #a02459;
+    margin-left: 15%;
+    margin-right:15%;
+    font-size:1em;
+    font-family: sans-serif;
+    text-transform: none;
+    font-weight: bold;
+    color:#a02459;
+    padding-bottom:0.3%;
+    padding-top:1%;
+    margin-top:1%;
+    margin-bottom:1%;
+    
+  
 
+}
+
+#vida{
+    background-color:rgb(223, 238, 9);
+    margin:0;
+    font-size:1em;
+    font-family: sans-serif;
+    text-transform: none;
+    font-weight: bold;
+        color:#a02459;
+        padding-bottom:1%;
+        padding-top:1.5%;
+
+
+}
+
+
+#atencao{
+    background-color:  #ffff; 
+   
+    font-size:1em;
+    font-family: sans-serif;
+    text-transform: none;
+    font-weight: bold;
+        color:#a02459;
+        padding-bottom:1%;
+        padding-top:1%;
+   
+}
+
+
+#main{
+    padding-bottom:0%;
+  
+}
+
+#final{
+ background-color: aqua;
+}
 
 
 
     /*footer*/
     
     
-    
+    /*
     .page-footer{
         background-color: #bf7575;
         width: 100%;
         height: 33%;
         font-size:16px;
        color:black;
-       display: block;
-        
+      
+     
+
         }
         
     
@@ -569,8 +635,7 @@ text-align: justify;
     
     div#social ul li a{
         background:url("../imagem/social1.png");
-        display:block;
-        height: 100%;
+            height: 100%;
         text-indent: -99999em;
         
     }
