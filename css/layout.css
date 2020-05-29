@@ -547,69 +547,129 @@ text-align: justify;
 }
 
 
+#sonhos{
+        background-color:  rgb(245, 229, 226); 
+        margin: 0;
+        padding:2%;
+}
+#sonhos h1{
+  
+    text-transform: none;
+    color:rgb(90, 9, 63);
+    letter-spacing: 3px;
+    font-size:30px;
+    font-weight: bold;
+    margin:0;
+}
+
+
 
 #porquee{
     background-color:rgba(124,124,124,0.07);
-    border:1px solid #a02459;
-    margin-left: 15%;
-    margin-right:15%;
+    border:1px solid #a02459;   
     font-size:1em;
     font-family: sans-serif;
     text-transform: none;
     font-weight: bold;
-    color:#a02459;
-    padding-bottom:0.3%;
-    padding-top:1%;
-    margin-top:1%;
-    margin-bottom:1%;
+    color:#a02459;  
     
-  
-
+    margin-top:8%;
+    margin-left:10%; 
 }
 
-#vida{
-    background-color:rgb(223, 238, 9);
+
+
+
+#contato{
+    background-color:#ffff;
     margin:0;
-    font-size:1em;
+    padding:0;
+}
+
+#contato h1{
+    font-size:3em;
+    margin-top:2%;
+    margin-bottom: 2px;
+}
+
+#endereco{
+    padding:1%;
+
+}
+
+#xx{
+    padding:1%;
+    margin:0;
+}
+#mail, #phone{
+    
+    font-size:25px;
     font-family: sans-serif;
-    text-transform: none;
-    font-weight: bold;
-        color:#a02459;
-        padding-bottom:1%;
-        padding-top:1.5%;
-
-
+    margin: 0;
+    padding:0;
 }
 
 
-#atencao{
-    background-color:  #ffff; 
+#mail i,
+#phone i{
    
-    font-size:1em;
-    font-family: sans-serif;
-    text-transform: none;
-    font-weight: bold;
-        color:#a02459;
-        padding-bottom:1%;
-        padding-top:1%;
+    font-size:30px;
+    color:#a02459;
+    
+   
    
 }
-
-
-#main{
-    padding-bottom:0%;
-  
+.icone{
+    margin-right:5px;
+    margin-top: 2px;
 }
 
-#final{
- background-color: aqua;
+#locacao i{
+    font-size: 6em;
+    color:#a02459;
+ 
 }
+
+#locacao p{
+padding-top: 1px; 
+margin-top:0;
+font-size:1.5em;
+font-family: sans-serif;
+color:rgb(103, 103, 109);
+
+}
+
+
+#declaracao-final{
+    background-color:  rgb(245, 229, 226); 
+    margin: 0;
+    padding:2%;
+    font-size: 1.5em;
+    color:#a02459;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+
 
 
 
     /*footer*/
     
+footer{
+        height: 4em;
+        background-color: #bf7575;    
+        font-size:1.2em;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top:3px;
+        font-weight: 800;
+        letter-spacing: 0.5px;
     
+}
+
+
+
+
     /*
     .page-footer{
         background-color: #bf7575;
