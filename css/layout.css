@@ -8,7 +8,7 @@ html {
 .logo{
 
 	height:68px;
-    width:170px;
+    width:150px;
     margin-top: 20%;
 }
 
@@ -99,6 +99,7 @@ color:rgb(88, 6, 57);
 }
 
 
+
 #new-banner{
     background: url("../imagem/lop.jpg");
     background-repeat: no-repeat;
@@ -130,27 +131,38 @@ color:rgb(88, 6, 57);
 
 
 
+
 /*SOMOS NOS*/
 
 .img1 {
     float: right;
     width:40%;
     margin-top:10%;
-    margin-left:7%;
+    margin-left:6%;
     margin-bottom: 1%;
     padding-top: 6%;
+    margin-right: 1%;
   }
   
 
-
-
-h1{
+  h1{
     font-family: 'Open Sans Condensed', sans-serif;
     color:#bf7575;
     text-transform: uppercase;       
     font-size: 4em;
     text-align: center;
     padding:0;
+    padding-top:1%;
+  }
+
+#bio h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#bf7575;
+    text-transform: uppercase;       
+    font-size: 4em;
+    text-align: center;
+    padding:0;
+    padding-top:1%;
     
 
 }
@@ -166,6 +178,7 @@ h1{
     margin-top:0;
     padding:10%;
     padding-top:1%;
+    padding-bottom: 0;
 }
 
 #elas p{
@@ -174,21 +187,41 @@ h1{
   
 }
 
-/*FABIOLA */
+#sobre-nos{
+    
+    background-color: #eee5e5;
+    padding-left:3%;
+    padding-right: 3%;
+    width: 55%;
+    padding-bottom: 3%;
+   
+}
+
+
+@media screen and (max-width: 1024px) {
+    #sobre-nos {
+        width: 100%;
+    }
+
+}
+
+
+
+
+/*FABIOLA*/
 
 .img2{
     float: left;
     width:35%;    
-   margin-right: 3%;   
-    margin-left:5%;
-    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    margin-left:1%;
+    
    
     
   }
   
-
-
-
+  
 #fabiola {
 
     background-color:  rgb(241, 219, 215);  
@@ -196,61 +229,63 @@ h1{
     font-family: sans-serif;
     color:#442439;   
     text-indent: 2em;    
-    margin-top:0;
-    padding:3%;
-    padding-top:0%;
-    padding-right: 0;
-    margin-left:0;
+    margin-top:0;    
+    padding-top:12%;
+    padding-left:10%;
+    
+    
 
 }
+
 
 
 #fabiola p{
     margin-top:0%;
     margin-bottom: 0;    
-    margin-left: 5%;
-    padding-left:3%;
-    margin-right: 5%;
-    padding-top:0%;
-    padding-right:3%;
-    padding-bottom: 1%;
-    width: 80%;
-  
+      padding:0.5%;
+      margin-right: 5%;
+      
+      
+   
   
 }
 
-#bio-fab{
-    padding-top: 0%;
-
-}
 
 @media screen and (max-width: 600px) {
     #fabiola p {
-      width:90%;
+        margin-right: 0%;
     }
-  
-  
 }
 
+#bio-fab{
+    margin-right: 10%;
+    padding-left:3%;
+    padding-right:3%;
+    background-color: #eee5e5;
+    padding-bottom: 1%;
+    margin-top:10%;
+  
+    
+}
 
 
 #fabiola h1{
     font-family: 'Open Sans Condensed', sans-serif;
     color:#bf7575;
     text-transform: uppercase;       
-    font-size: 3.5em;    
+    font-size: 3.5em;         
     padding:0;
-    margin-right:9%;
-    margin-left:43%;
-    margin-bottom: 3%;      
-    margin-top:0;
-    padding-top:8%;
-    padding-bottom: 2%;
     text-align: left;
-    
+    padding-top:1%;
   
 }
 
+
+@media screen and (max-width: 600px) {
+    #fabiola h1 {
+        font-size: 3.2em;  
+    }
+}
 
 
 #usuario{
@@ -268,6 +303,9 @@ h1{
     
     
 }
+
+
+
 
 /*DEBORAH */
 
@@ -292,7 +330,7 @@ h1{
     text-indent: 2em;    
     margin-top:0;    
     padding-top:12%;
-    padding-bottom:20%;
+    padding-bottom:10%;
     padding-left:10%
 
 }
@@ -304,25 +342,31 @@ h1{
     margin-bottom: 0;    
       padding:1%;
       margin-right: 40%;
-   
+      
   
 }
 
-
-@media screen and (max-width: 600px) {
-    #deborah p {
-        margin-right: 0%;
-    }
-}
 
 #bio-deb{
     margin-right: 10%;
     padding-left:3%;
     padding-right:3%;
-    background-color: #f1caca;
+    background-color: #eee5e5;
     padding-bottom: 1%;
-  
+    margin-top:10%;
+   margin-left:10%;
     
+}
+
+
+@media screen and (max-width: 800px) {
+    #deborah p {
+        margin-right: 0%;
+    }
+    #bio-deb{
+        margin-left:0;
+
+    }
 }
 
 
@@ -359,98 +403,6 @@ h1{
 }
 
 
-
-
-
-
-
-
-/*
-#quemSomos{
-    background-color: rgb(245, 248, 248);
-    padding-top: 3%;
-    padding-bottom: 2%;
-    margin-bottom: 0;
-    
- 
-}
-
-
-#quem{
-   background-color:  rgb(241, 219, 215);    
-    margin-top: 10vw;
-    margin-left: 12vw;
-     width: 32%;   
-    text-align: justify;
-    font-size: 1vw;
-    font-family: sans-serif;
-    color:#442439;
-    padding: 2vw;
-}
-
-#quem p{
-    text-indent: 2em;
-    margin:0.5vw;
-}
-
-
-h1{
-    font-family: 'Open Sans Condensed', sans-serif;
-    color:#bf7575;
-    text-transform: uppercase;   
-  text-align: center;
-  font-size:3vw;
-  margin-top: 1vw;
-
-}
-
-/*DEBORAH
-
-#deborah img{
-    width: 40%;
-    margin-left:10%;
-}
-
-*/
-
-/*
-#quem2 p{
-    text-indent: 2em;
-    margin:0.3vw;
-}
-
-
-#quem2{
-    
-    
-    background-color:  rgb(241, 219, 215);    
-    margin-top: 10vw;
-    margin-left: 43vw;    
-     width: 32%;   
-      
-    font-size: 1em;
-    font-family: sans-serif;
-    color:#442439;
-    text-align: justify;
-    padding: 2vw;
-    
-}
-
-
-.foto2 img{
-    width: 40%;
-  margin-left: 13vw;
-  margin-top:5%;
-  margin-bottom: 10%;
-
-    
-}
-
-
-*/
-
-
-
 .foto img{
   width: 40%;
   margin-left: 50%;
@@ -458,44 +410,6 @@ h1{
   margin-bottom: 10%;
   
 
-}
-
-
-
-#sobreNos{
-    background-color:  rgb(241, 219, 215);    
-    margin-top: 2vw;
-    margin-left: 7vw;
-     width: 40vw;   
-    padding-left:2vw;
-    padding-right: 4vw;
-    font-size: 1vw;
-    font-family: sans-serif;
-    color:#442439;
-    margin-bottom: 10%;
-    padding-top:2vw;
-    padding-bottom: 2vw;
-    text-align: justify;
-
-}
-
-
-
-.foto3 img{
-    width: 25%;
-     position: absolute;
-  margin-left: 46%;
-  margin-top:8%;
-  margin-bottom: 10%;
-  transform: rotate(20deg);
-
-    
-}
-
-
-#sobreNos p{
-    text-indent: 2em;
-    margin:0.3vw;
 }
 
 
@@ -559,19 +473,6 @@ h4{
         
         
     }
-
-    /*
-    #idea-icon{
-        position: absolute;
-
-    }
-#idea-icon img{
-    height:50px;
-    left:3%;
-    margin-top:180%;
-    transform: rotate(-20deg);
-
-}*/
 
 
 
@@ -791,8 +692,10 @@ text-align: justify;
     color:rgb(90, 9, 63);
     letter-spacing: 3px;
     font-size:30px;
-    font-weight: bold;
+    
     margin:0;
+    font-family: 'Seaweed Script', cursive;
+
 }
 
 
@@ -830,7 +733,7 @@ text-align: justify;
 
 }
 
-#xx{
+#contato-name{
     padding:1%;
     margin:0;
 }
@@ -876,13 +779,14 @@ color:rgb(103, 103, 109);
 #declaracao-final{
     background-color:  rgb(245, 229, 226); 
     margin: 0;
-    padding:2%;
+    padding:1%;
     font-size: 1.5em;
     color:#a02459;
-    font-weight: bold;
-    font-family: cursive;
+    
+    font-family: 'Seaweed Script', cursive;
 
 }
+
 
 
 
@@ -899,64 +803,9 @@ footer{
         letter-spacing: 0.5px;
     
 }
+#user-renata{
+    color:rgb(31, 28, 30);
+    font-size:20px;
 
+}
 
-
-
-    /*
-    .page-footer{
-        background-color: #bf7575;
-        width: 100%;
-        height: 33%;
-        font-size:16px;
-       color:black;
-      
-     
-
-        }
-        
-    
-    
-    
-    div#social ul li {
-        width:32px;
-        height:32px;
-        float:left;
-        margin-right: 15px;
-    }
-    
-    
-    div#social ul li a{
-        background:url("../imagem/social1.png");
-            height: 100%;
-        text-indent: -99999em;
-        
-    }
-    
-    div#social ul li:nth-child(1) a{background-position: 0 0;}
-    div#social ul li:nth-child(2) a{background-position: -129px 0;}
-    
-    div#social ul li:nth-child(1) a:hover {background-position: 0 -32px;}
-    div#social ul li:nth-child(2) a:hover {background-position: -128px -32px;}
-    
-        
-    }
-    
-    footer .container{
-        margin-left:15vw;
-      width: 70vw;
-      padding-bottom:0;
-    }
-    
-    h5{
-        font-size: 120%;
-        color:rgb(6
-    }
-    
-    .aa p,
-    .bb p
-    {
-        font-size: 1vw;
-    }
-    
-    
