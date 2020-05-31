@@ -9,39 +9,49 @@ html {
 
 	height:68px;
     width:150px;
-    margin-top: 20%;
+    margin-top: 2%;
+    margin-left:15%;
+}
+
+@media screen and (max-width: 1024px) {
+    .logo{
+        margin-top: 5%;
+        margin-left:5%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .logo{
+        margin-top: 10%;
+        margin-left:5%;
+    }
 }
 
 .icon-color{
 
     color:rgb(94, 7, 55);
     margin-top:40px;
-    
+       
 }
 
 
-#navbar{
 
-display: flex;
-justify-content: space-between;
-
-
-}
 
 nav{
     background-color: rgb(241, 219, 215);  
     height:130px;
     box-shadow: none;
     padding: 0;
-   
+    padding-right: 10%;
 
 }
 
-nav ul li{
-  
+nav ul li{ 
     
     height: 100px;
     padding-top:30px;
+   
    
 }
 
@@ -66,20 +76,20 @@ ul li a:hover{
 
 .sidenav{
     background-color: #fff;
-    padding-top:100px;
-    width:90%;
+    width:60%;
     background-color:  rgb(241, 219, 215);
 }
 
 .sidenav li{
     margin-bottom: 20px;
+ 
 
 }
 
 
 .sidenav li a{
-    font-size: 24px;
-    margin:30px;
+    font-size: 20px;
+    margin:5%;
     margin-bottom:20px;
     border-bottom: 1px solid rgb(88, 6, 57);
     color:rgb(88, 6, 57);
@@ -92,12 +102,16 @@ ul li a:hover{
 
 .sidenav-close{
    
-text-align: right;
-margin-right: 20px;
+text-align: left;
+margin-left: 10%;
 color:rgb(88, 6, 57);
+margin-bottom: 100px;
+font-size: 30px;
 
 }
 
+
+/*BANNER TOPO*/
 
 
 #new-banner{
@@ -106,31 +120,48 @@ color:rgb(88, 6, 57);
     background-size: cover;    
     height: 450px;
     filter:opacity(50%);
-         
+    margin-bottom: 0%;
+
 }
 
-    #info h2 {
-        
+    #info h2      {
+
         font-family: 'Kaushan Script', cursive;        
-        position: absolute;        
-        margin-left:15%;
+        position: absolute;
+        margin-left:2%;
         margin-top: 10%;
         letter-spacing: 3px;
         display: block;
-        font-size: 240%;
+        font-size: 3em;
+        text-align: center;
+        color:#500b2e;
+        text-shadow: 2px 2px 10px rgb(204, 156, 172);
 
    }
-   
-   
-#info p{
-   
-    font-family: 'Kaushan Script', cursive;       
-    text-align: center;
-    font-size: 20px;
+
+   @media screen and (max-width: 1024px) {
+    #info h2  {
+         margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #info h2  {
+         margin-top: 20%;
+    }
 }
 
 
+   @media screen and (max-width: 600px) {
+    #info h2  {
+         margin-top: 37%;
+    }
+}
 
+#dif{
+  
+    margin: 0;
+}
 
 /*SOMOS NOS*/
 
@@ -704,10 +735,7 @@ text-align: justify;
     #business7{
         padding-top: 20%;
    
-    }
-
-
-    
+    }    
 }
 
 
@@ -771,12 +799,6 @@ text-align: justify;
 
 
 
-
-#contato{
-    background-color:#ffff;
-    margin:0;
-    padding:0;
-}
 
 #contato h1{
     font-size:3em;    
