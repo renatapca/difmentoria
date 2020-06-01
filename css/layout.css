@@ -541,6 +541,16 @@ h4{
     
 }
 
+#texto2 h4{
+    font-size: 2em;
+    font-family: 'Kaushan Script', cursive;
+    color:#a02459;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-left:4%;
+  
+   
+}
 
 @media screen and (max-width: 800px) {
     #business2, #business4, #business6 {
@@ -548,6 +558,9 @@ h4{
     }
 
   }
+
+
+
 
 
 #texto3{
@@ -576,6 +589,19 @@ text-align: justify;
     }
 
 
+    #texto3 h4{
+        font-size: 2em;
+        font-family: 'Kaushan Script', cursive;
+        color:#a02459;
+        text-align: left;
+        letter-spacing: 2px;
+        margin-left:4%;
+       
+    }
+
+
+
+    /*DIF PARA VOCE */
 #texto4 li{
     list-style-type: circle !important;
     margin-left:5%;
@@ -603,10 +629,23 @@ text-align: justify;
    
 }
 
+#texto4 h4{
+    font-size: 2em;
+    font-family: 'Kaushan Script', cursive;
+    color:#a02459;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-left:4%;
+   
+}
+
+#texto4 p{
+    margin-left:4%;
+}
 
 #texto5{
 
-    padding-left:2%;
+    padding-left:1%;
     padding-right: 2%;
     background-color:rgba(124,124,124,0.07);
     padding-top:2%;
@@ -618,6 +657,16 @@ text-align: justify;
     }
     
 
+    #texto5 h4{
+        font-size: 2em;
+        font-family: 'Kaushan Script', cursive;
+        color:#a02459;
+        text-align: left;
+        letter-spacing: 2px;
+      
+       
+    }
+    
 #business5 img{
     width: 80%;   
 }
@@ -657,6 +706,16 @@ text-align: justify;
     list-style-type: circle !important;
     margin-left:5%;
 
+}
+
+#texto6 h4{
+    font-size: 2em;
+    font-family: 'Kaushan Script', cursive;
+    color:#a02459;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-left:4%;
+   
 }
 
 #empreendedoras{
