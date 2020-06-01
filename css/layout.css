@@ -540,9 +540,6 @@ h4{
       display:none;
     }
 
-
-
-
   }
 
 
@@ -801,7 +798,7 @@ text-align: justify;
 
 #contato h1{
     font-size:3em;    
-    margin-bottom: 2px;
+    margin-bottom: 2%;
 }
 
 #endereco{
@@ -827,13 +824,14 @@ text-align: justify;
    
     font-size:30px;
     color:#a02459;
-    
+    margin: 0;
+    padding:0;
    
    
 }
 .icone{
     margin-right:5px;
-    margin-top: 2px;
+    margin-top: 0px;
 }
 
 #locacao i{
@@ -865,66 +863,19 @@ color:rgb(103, 103, 109);
 
 
 
-
-#novo-topico{
-    margin-top:30px;  
-
-}
-
 #assunto,
 #email-msg,
 #name,
-#msg-usuario{
+#text-area{
 height: 35px;    
 font-family: Arial;
 font-size: 20px;    
 background-color: white;
-
 border:1px solid black;
 width: 30%;
 
-}
-
-#text-area{
-    background-color: white;
-    width:30%;
-    height: 100px; 
-
 
 }
-
-
-
-.botao-enviar{
-    width:130px;
-    margin-left: 21%;
-}
-
-.btn{
-    background-color:  #a02459;
-}
-
-.btn:hover{
-    background-color:#bf7575;;
-    transition: 400ms;
-}
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -937,7 +888,6 @@ width: 30%;
     
 footer{
       
-        background-color: #641041;    
         font-size:1.2em;
         font-family: sans-serif;      
         font-weight: 400;
@@ -954,8 +904,61 @@ color:rgb(243, 230, 230);
 
 #criado{
     padding:1%;
+        background-color:  #83204b; 
 }
 
+
+
+
+
+
+#text-area{
+   
+    height: 100px; 
+}
+
+::placeholder{
+    padding-left: 2%;
+}
+
+
+.botao-enviar{
+    width:130px;
+    color:white;
+
+}
+
+.btn{
+    background-color:  #a02459;
+}
+
+.btn:hover{
+    background-color:#bf7575;;
+    transition: 400ms;
+ 
+}
+
+input[type="submit"] {
+     
+    color:rgb(241, 231, 241);
+}
+
+
+@media screen and (max-width: 800px) {
+    #assunto,
+    #email-msg,
+    #name,
+    #text-area {
+      width: 50%;
+    }
+
+@media screen and (max-width: 767px) {
+    #assunto,
+    #email-msg,
+    #name,
+    #text-area {
+      width: 80%;
+    }
 
 
 
