@@ -27,10 +27,10 @@
                   <a href="index.html"><img class="logo left" src=imagem/logo.png></a>      
                 </div><!--col-->
                 <div class="col s3 m7 right ">
-                  <a href="#" data-target="mobile-demo" class="sidenav-trigger "><i class="material-icons icon-color" style="font-size: 40px;">menu</i></a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger "><i class="material-icons icon-color" style="font-size: 30px;">menu</i></a>
                   <ul class="hide-on-med-and-down right">       
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#elas">Sobre Nós</a></li>
+                    <li><a href="#sobre-nos-title">Sobre Nós</a></li>
                     <li><a href="#texto1">Programas</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>        
@@ -41,7 +41,7 @@
         <ul class="sidenav center" id="mobile-demo">
             <p class="sidenav-close">&#10005;</p>
             <li><a href="index.html">Home</a></li>
-                    <li><a href="#elas">Sobre Nós</a></li>
+                    <li><a href="#sobre-nos-title">Sobre Nós</a></li>
                     <li><a href="#texto1">Programas</a></li>
                     <li><a href="#contato">Contato</a></li>
         </ul>            
@@ -65,14 +65,10 @@
 
 
 
-
-
-
-<section style="margin-bottom: 0;" id="bio" class="z-depth-1" >
     <div id="elas">
-        <img class="img1" src="imagem/dif1.jpg" alt="">
-        <div id="sobre-nos">
-        <p style="margin-top:10%; padding-top:5%; font-family: 'Kaushan Script', cursive; font-size:23px; color:black;">Olá, tudo bem?</p>
+<img class="img1" src="imagem/dif1.jpg" alt="">
+        <div id="introducao">
+        <p style="margin-top:0%; padding-top:5%; font-family: 'Kaushan Script', cursive; font-size:23px; color:black;">Olá, tudo bem?</p>
         <p> Nós somos as sócias Fabíola Casanova e Deborah Barros. </p>
         <p>Somos empreendedoras trabalhando juntas há 10 anos, especialistas em vendas e desenvolvimento humano. Nosso
             propósito é levar mulheres como nós a conquistarem seus maiores sonhos e despertar todo potencial que existe
@@ -91,7 +87,17 @@
             emocionais de forma rápida e é possível conquistar sonhos que antes pareciam impossíveis.
             Vem conosco por que será um prazer poder te ajudar!</p>    
       </div>
-    </div>
+</div>
+
+<section style="margin-bottom: 0;" id="bio" class="z-depth-1" >
+
+        <div style="background-color:rgb(241, 219, 215);padding-top:1px;" id="sobre-nos-title">       
+            <div >    
+                <div class="center col s12">
+                    <h1>Sobre Nós</h1>
+                </div>
+            </div>     
+    
 
 
     <div id="fabiola">
@@ -304,6 +310,61 @@
         </div>
     </div>
 
+    
+
+
+
+    <form  action="https://formspree.io/mvowaojy" method="POST" id="novo-topico">             
+        <div class="col s12 l12 m12 iniciais center">                  
+            <input name="name" type="text" id="name" placeholder="Nome *">
+        </div> <!-- /.input-field -->
+
+        <div class="col s12 l12 m12 iniciais center">                  
+            <input  name="_replyto" required class="validate"type="email" id="email-msg" placeholder="E-mail *">
+            <span class="helper-text" data-error="Preenche o e-mail corretamente"></span>
+  
+
+         
+        </div> <!-- /.input-field -->
+
+        <div class="col s12 l12 m12 iniciais center">                  
+            <input type="text" id="assunto" placeholder="Assunto *">
+        </div> <!-- /.input-field -->
+
+       
+        <div class="col s12 center">    
+            <textarea type="textarea" id="text-area"  placeholder="Sua Mensagem"></textarea>
+        </div> <!-- /.input-field -->
+
+        
+        <div class="col s12 center">
+            <a type="submit" value="send" class="waves-effect waves-light btn botao-enviar">Enviar</a>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="row">
 <div class="col s12 ">
         <div id="endereco">
@@ -332,7 +393,7 @@
 <div id="declaracao-final">       
         <div class="center col s12 l12">
             <p> Sua vida pode ser totalmente transformada, não importa de onde você está começando.</p>    
-            <p>Entre em contato conosco e comece a transformar sua vida hoje mesmo!!!</p>     
+            <p>Entre em contato conosco e comece a transformação hoje mesmo!!!</p>     
         </div>
     
     </div>
