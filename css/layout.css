@@ -49,8 +49,7 @@ nav{
 
 nav ul li{ 
     
-    height: 100px;
-    padding-top:30px;
+    padding-top:5%;
    
    
 }
@@ -70,19 +69,21 @@ ul li a:hover{
     color: rgb(141, 16, 93);
     background-color: transparent;
     transition: 200ms;
-    color
+    
 }
 
 
 .sidenav{
     background-color: #fff;
-    width:60%;
+    width:100%;
     background-color:  rgb(241, 219, 215);
+   
 }
 
 .sidenav li{
     margin-bottom: 20px;
- 
+    padding-left:10%;
+    padding-right:10%;
 
 }
 
@@ -100,7 +101,7 @@ ul li a:hover{
   
 }
 
-.sidenav-close{
+#sidenavX{
    
 text-align: left;
 margin-left: 10%;
@@ -812,10 +813,11 @@ text-align: justify;
 }
 #mail, #phone{
     
-    font-size:25px;
+    font-size:20px;
     font-family: sans-serif;
     margin: 0;
     padding:0;
+    color:rgb(103, 103, 109);
 }
 
 
@@ -826,6 +828,7 @@ text-align: justify;
     color:#a02459;
     margin: 0;
     padding:0;
+    margin-right:1%;
    
    
 }
@@ -834,19 +837,70 @@ text-align: justify;
     margin-top: 0px;
 }
 
-#locacao i{
+
+    #locacao i{
     font-size: 6em;
     color:#a02459;
  
 }
 
+#mail p{
+   
+}
+
+
+/*
+@media screen and (max-width: 1024px) {
+   
+#mail p{
+    margin-left:37%;
+ }
+}
+
+
+
+@media screen and (max-width: 768px) {
+   
+    #mail p{
+        margin-left:33%;
+     }
+    }
+
+
+    @media screen and (max-width: 377px) {
+   
+        #mail p{
+            margin-left:17%;
+         }
+        }
+    
+
+        @media screen and (max-width: 45px) {
+   
+            #mail p{
+                margin-left:10%;
+             }
+            }
+
+
+
+*/
+
+
+
 #locacao p{
 padding-top: 1px; 
 margin-top:0;
-font-size:1.5em;
+font-size:1.2em;
 font-family: sans-serif;
 color:rgb(103, 103, 109);
 
+}
+
+#final{
+    background-color:rgba(124,124,124,0.07);
+    margin: 0;
+    padding:1%;
 }
 
 
@@ -856,10 +910,11 @@ color:rgb(103, 103, 109);
     padding:1%;
     font-size: 1.5em;
     color:#a02459;
-    
+    margin-top:3%;
     font-family: 'Kaushan Script', cursive;
 
 }
+
 
 
 
@@ -925,6 +980,7 @@ color:rgb(243, 230, 230);
 .botao-enviar{
     width:130px;
     color:white;
+
 
 }
 
