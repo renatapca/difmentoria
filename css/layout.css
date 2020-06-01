@@ -920,8 +920,7 @@ color:rgb(103, 103, 109);
 
 #assunto,
 #email-msg,
-#name,
-#text-area{
+#name{
 height: 35px;    
 font-family: Arial;
 font-size: 20px;    
@@ -931,12 +930,15 @@ width: 30%;
 
 
 }
-
-
-
-
-
-
+#text-area{
+       
+    font-family: Arial;
+    font-size: 20px;    
+    background-color: white;
+    border:1px solid black;
+    width: 30%;
+    height:100px;
+}
 
 
     /*footer*/
@@ -967,15 +969,15 @@ color:rgb(243, 230, 230);
 
 
 
-#text-area{
-   
-    height: 100px; 
-}
-
 ::placeholder{
     padding-left: 2%;
 }
 
+
+
+textarea{
+    padding-top:0.5%;
+}
 
 .botao-enviar{
     width:130px;
