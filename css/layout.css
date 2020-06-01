@@ -819,7 +819,7 @@ text-align: justify;
 }
 #mail, #phone{
     
-    font-size:20px;
+    font-size:14px;
     font-family: sans-serif;
     margin: 0;
     padding:0;
@@ -830,7 +830,7 @@ text-align: justify;
 #mail i,
 #phone i{
    
-    font-size:30px;
+    font-size:25px;
     color:#a02459;
     margin: 0;
     padding:0;
@@ -845,13 +845,9 @@ text-align: justify;
 
 
     #locacao i{
-    font-size: 6em;
+    font-size: 5em;
     color:#a02459;
  
-}
-
-#mail p{
-   
 }
 
 
@@ -895,9 +891,10 @@ text-align: justify;
 
 
 #locacao p{
-padding-top: 1px; 
+  
+padding-top: 0; 
 margin-top:0;
-font-size:1.2em;
+font-size:14px;
 font-family: sans-serif;
 color:rgb(103, 103, 109);
 
@@ -906,7 +903,8 @@ color:rgb(103, 103, 109);
 #final{
     background-color:rgba(124,124,124,0.07);
     margin: 0;
-    padding:1%;
+    padding-top:1%;
+    padding-bottom: 0;
 }
 
 
@@ -947,6 +945,11 @@ width: 30%;
 }
 
 
+
+
+
+
+
     /*footer*/
     
 footer{
@@ -955,7 +958,7 @@ footer{
         font-family: sans-serif;      
         font-weight: 400;
         letter-spacing: 2px;
-        
+        margin: 0;
     
 }
 #user-renata{
@@ -1039,8 +1042,6 @@ input[type="submit"] {
     #text-area {
       width: 80%;
     }
-
-
 
 
 
