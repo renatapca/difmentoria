@@ -805,7 +805,7 @@ text-align: justify;
 
 #contato h1{
     font-size:3em;    
-    margin-bottom: 2%;
+    
 }
 
 #endereco{
@@ -988,6 +988,22 @@ textarea{
 .botao-enviar{
     width:130px;
     color:white;
+    margin-top: 1%;
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .botao-enviar{
+            margin-top: 2%;
+            margin-bottom: 5%;
+        }
+
+       
+    #contato h1{
+        margin-top: 8%; 
+        margin-bottom: 8%;
+    }
 
 
 }
