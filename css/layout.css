@@ -106,7 +106,7 @@ ul li a:hover{
 text-align: left;
 margin-left: 10%;
 color:rgb(88, 6, 57);
-margin-bottom: 70px;
+margin-bottom: 50px;
 font-size: 30px;
 
 }
@@ -908,6 +908,10 @@ text-align: justify;
     color:#a02459;
  
 }
+#mail{
+margin-right:3%;
+}
+
 
 
 /*
@@ -1101,10 +1105,6 @@ input[type="submit"] {
     #text-area {
       width: 80%;
     }
-
-
-
-
 
 
 
